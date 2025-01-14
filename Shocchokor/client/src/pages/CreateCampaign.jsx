@@ -53,7 +53,7 @@ const CreateCampaign = () => {
         {/* Header */}
         <div className="flex justify-center items-center py-4 bg-[#3a3a43] rounded-lg mb-8">
           <h1 className="font-epilogue font-bold text-2xl sm:text-3xl text-white">
-            Start a Campaign
+            Create a Project
           </h1>
         </div>
 
@@ -68,7 +68,7 @@ const CreateCampaign = () => {
               handleChange={(e) => handleFormFieldChange("name", e)}
             />
             <FormField
-              labelName="Campaign Title *"
+              labelName="Project Title *"
               placeholder="Write a title"
               inputType="text"
               value={form.title}
@@ -77,8 +77,8 @@ const CreateCampaign = () => {
           </div>
 
           <FormField
-            labelName="Story *"
-            placeholder="Write your story"
+            labelName="Project Details *"
+            placeholder="Write project description"
             isTextArea
             value={form.description}
             handleChange={(e) => handleFormFieldChange("description", e)}
@@ -87,13 +87,13 @@ const CreateCampaign = () => {
           <div className="w-full flex items-center p-6 bg-gradient-to-r from-[#8c6dfd] to-[#57eba3] rounded-lg text-white">
             <img src={money} alt="money" className="w-10 h-10 object-contain" />
             <h4 className="font-epilogue font-bold text-lg ml-4">
-              You will get 100% of the raised amount
+              Your country's growth depends on your tax!
             </h4>
           </div>
 
           <div className="flex flex-wrap gap-6">
             <FormField
-              labelName="Goal *"
+              labelName="Budget *"
               placeholder="ETH 0.50"
               inputType="text"
               value={form.target}
@@ -109,8 +109,8 @@ const CreateCampaign = () => {
           </div>
 
           <FormField
-            labelName="Campaign Image *"
-            placeholder="Place image URL of your campaign"
+            labelName="Project Image *"
+            placeholder="Place image URL of your project"
             inputType="url"
             value={form.image}
             handleChange={(e) => handleFormFieldChange("image", e)}
@@ -119,7 +119,7 @@ const CreateCampaign = () => {
           <div className="flex justify-center items-center mt-6">
             <CustomButton
               btnType="submit"
-              title="Submit New Campaign"
+              title="Submit New Project"
               styles="bg-gradient-to-r from-[#1dc071] to-[#57eba3] py-3 px-6 rounded-lg font-medium text-white shadow-md hover:shadow-lg transition-transform hover:scale-105"
             />
           </div>

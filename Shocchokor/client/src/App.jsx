@@ -11,7 +11,7 @@ import {
   Homepage,
   Chatbot_Assistant,
   Dashboard,
-  SearchResults
+  SearchResults,
 } from "./pages";
 
 const App = () => {
@@ -28,8 +28,9 @@ const App = () => {
 
         <Routes>
           <Route path="/" element={<Homepage />} />
+          {/* <Route path="/signin" element={<SignIn />} /> */}
           <Route path="/home" element={<Home />} />
-          <Route path="/search" element={<SearchResults />} /> {/* Add this route */}
+          <Route path="/search" element={<SearchResults />} />{" "}
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/donated-campaigns" element={<DonatedCampaignsPage />} />
           <Route path="/profile" element={<Profile />} />

@@ -8,9 +8,9 @@ const Homepage = () => {
       {/* App Title */}
       <h1 className="text-4xl sm:text-6xl lg:text-8xl text-center tracking-wide mb-4">
         <span className="bg-gradient-to-r from-[#71cab3] to-[#238d6f] text-transparent bg-clip-text font-bold">
-          Block
+          Shoccho
         </span>
-        <span className="text-white font-bold">Funder</span>
+        <span className="text-white font-bold">Kor</span>
       </h1>
 
       {/* Subtitle */}
@@ -21,18 +21,22 @@ const Homepage = () => {
             backgroundImage: "linear-gradient(to right, #ffbd59, #ffa726)",
           }}
         >
-          Crowdfunding Powered by Blockchain
+          Tax Payment Powered by Blockchain
         </span>
       </p>
 
       {/* App Description */}
       <p className="mt-8 text-base sm:text-lg lg:text-xl text-center text-neutral-200 max-w-3xl leading-relaxed">
         Welcome to{" "}
-        <span className="text-[#00A86B] font-semibold">BlockFunder</span>, where
-        transparency meets innovation. Create impactful campaigns, accept secure
-        Ethereum donations, and experience the power of blockchain for
-        fundraising. Every transaction is decentralized, transparent, and secure
-        — redefining how we fund change.
+        <span className="text-[#00A86B] font-semibold">Shochchokor</span>, where
+        innovation transforms taxation. Empower taxpayers to allocate their
+        contributions directly to development projects in their preferred areas.
+        With eTaka, Bangladesh's Central Bank Digital Currency (CBDC), as the
+        medium for payments, enjoy a secure, efficient, and transparent tax
+        process. Powered by blockchain technology, this platform ensures
+        unmatched transparency, strengthens accountability, and fosters active
+        citizen participation, redefining the connection between taxpayers and
+        national progress.
       </p>
 
       {/* Call to Action */}
@@ -41,7 +45,7 @@ const Homepage = () => {
           to="/home" // Navigate to /home
           className="bg-gradient-to-r from-[#006A4E] to-[#004F39] py-4 px-6 rounded-lg text-white text-lg font-medium shadow-lg hover:shadow-xl hover:scale-105 transition-transform"
         >
-          View Campaigns
+          View Projects
         </Link>
         <Link
           to="/chatbot" // Navigate to /chatbot
@@ -85,7 +89,7 @@ const Homepage = () => {
 
       {/* Footer */}
       <footer className="mt-16 text-neutral-400 text-center text-sm">
-        © 2025 BlockFunder. All Rights Reserved.
+        © 2025 Shocchokor. All Rights Reserved.
       </footer>
     </div>
   );
