@@ -44,17 +44,17 @@ const CreateCampaign = () => {
   };
 
   return (
-    <div className="min-h-screen p-8 bg-gradient-to-br from-[#1e1e2d] via-[#23233d] to-[#181a21] flex justify-center items-center text-white">
-      <div className="bg-[#1c1c24] w-full max-w-4xl flex flex-col rounded-lg sm:p-10 p-6 shadow-lg">
+    <div className="font-sans min-h-screen p-8 bg-gradient-to-b from-[#f8f1d1] via-[#e8dcc1] to-[#e6d8b8] flex justify-center items-center text-teal-900">
+      <div className="bg-white w-full max-w-4xl flex flex-col rounded-lg shadow-lg p-8 sm:p-10">
         {isLoading && (
-          <div className="text-center text-lg text-[#57eba3]">Loading...</div>
+          <div className="text-center text-lg text-teal-700 font-bold">
+            Loading...
+          </div>
         )}
 
         {/* Header */}
-        <div className="flex justify-center items-center py-4 bg-[#3a3a43] rounded-lg mb-8">
-          <h1 className="font-epilogue font-bold text-2xl sm:text-3xl text-white">
-            Create a Project
-          </h1>
+        <div className="flex justify-center items-center py-4 bg-teal-900 text-white rounded-lg mb-8">
+          <h1 className="text-2xl sm:text-3xl font-bold">Create a Project</h1>
         </div>
 
         {/* Form */}
@@ -84,9 +84,9 @@ const CreateCampaign = () => {
             handleChange={(e) => handleFormFieldChange("description", e)}
           />
 
-          <div className="w-full flex items-center p-6 bg-gradient-to-r from-[#8c6dfd] to-[#57eba3] rounded-lg text-white">
+          <div className="w-full flex items-center p-6 bg-gradient-to-r from-teal-700 to-teal-500 rounded-lg text-white">
             <img src={money} alt="money" className="w-10 h-10 object-contain" />
-            <h4 className="font-epilogue font-bold text-lg ml-4">
+            <h4 className="text-lg font-semibold ml-4">
               Your country's growth depends on your tax!
             </h4>
           </div>
@@ -120,7 +120,7 @@ const CreateCampaign = () => {
             <CustomButton
               btnType="submit"
               title="Submit New Project"
-              styles="bg-gradient-to-r from-[#1dc071] to-[#57eba3] py-3 px-6 rounded-lg font-medium text-white shadow-md hover:shadow-lg transition-transform hover:scale-105"
+              styles="bg-gradient-to-r from-teal-700 to-teal-500 py-3 px-6 rounded-lg font-semibold text-white shadow-md hover:shadow-lg transition-transform hover:scale-105"
             />
           </div>
         </form>

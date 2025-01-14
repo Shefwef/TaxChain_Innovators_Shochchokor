@@ -124,7 +124,7 @@ const CampaignDetails = () => {
                   </div>
                 ))
               ) : (
-                <p className="text-sm text-gray-400">
+                <p className="font-epilogue font-normal text-[16px] text-[#808191] leading-[26px] text-justify">
                   No donators yet. Be the first one!
                 </p>
               )}
@@ -145,8 +145,9 @@ const CampaignDetails = () => {
             value={amount}
             onChange={(e) => setAmount(e.target.value)}
           />
-          <div className="mt-6 p-4 bg-gray-800 rounded-lg">
-            <h4 className="text-sm text-white font-medium">
+
+          <div className="my-[20px] p-4 bg-[#13131a] rounded-[10px]">
+            <h4 className="font-epilogue font-semibold text-[14px] leading-[22px] text-white">
               Back it because you believe in it.
             </h4>
             <p className="text-xs text-gray-400 mt-2">
