@@ -4,21 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
-.linear-gradient {
-  background: linear-gradient(
-    179.14deg,
-    rgba(32, 18, 63, 0) -7.14%,
-    #000000 87.01%
-  );
-}
-
 input[type="date"]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   filter: invert(0.8);
 }
 
 .profile-card {
-  background-image: linear-gradient(135deg, #2a2d35, #1c1c24);
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
   padding: 16px;
   border-radius: 8px;
@@ -39,19 +30,21 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .profile-card h2 {
-  font-size: 1.125rem; /* 18px */
-  color: #ffffff;
+  font-size: 1.125rem;
+  /* 18px */
+  color: #1c1c24;
+  /* Dark text color */
   font-weight: 600;
 }
 
 .profile-card p {
   color: #808191;
-  font-size: 0.875rem; /* 14px */
+  font-size: 0.875rem;
+  /* 14px */
 }
 
 .profile-container {
   position: relative;
-  background: linear-gradient(135deg, #1c1c24, #2a2d35);
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
   border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 24px;
@@ -76,7 +69,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .profile-container p {
   font-size: 0.875rem;
-  color: #b3b3c0;
+  color: #1c1c24;
+  /* Dark text color */
   display: flex;
   align-items: center;
   gap: 8px;

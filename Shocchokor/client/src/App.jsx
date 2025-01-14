@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 
-import { Sidebar, Navbar } from "./components";
+
 import {
   CampaignDetails,
   CreateCampaign,
@@ -16,16 +16,10 @@ import {
 
 const App = () => {
   return (
-    <div className="relative sm:-8 p-4 bg-[#13131a] min-h-screen flex flex-row">
-      {/* Sidebar */}
-      <div className="sm:flex hidden mr-10 relative">
-        <Sidebar />
-      </div>
-
-      {/* Main Content */}
-      <div className="flex-1 max-sm:w-full max-w-[1280px] mx-auto sm:pr-5">
-        <Navbar />
-
+    <div >
+          
+     
+      <div >
         <Routes>
           <Route path="/" element={<Homepage />} />
           {/* <Route path="/signin" element={<SignIn />} /> */}
