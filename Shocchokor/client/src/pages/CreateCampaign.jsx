@@ -61,8 +61,8 @@ const CreateCampaign = () => {
         <form onSubmit={handleSubmit} className="w-full flex flex-col gap-6">
           <div className="flex flex-wrap gap-6">
             <FormField
-              labelName="Your Name *"
-              placeholder="John Doe"
+              labelName="Project Id *"
+              placeholder="512"
               inputType="text"
               value={form.name}
               handleChange={(e) => handleFormFieldChange("name", e)}

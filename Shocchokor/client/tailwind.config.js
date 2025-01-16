@@ -12,6 +12,10 @@ module.exports = {
       boxShadow: {
         secondary: '10px 10px 20px rgba(2, 2, 2, 0.25)',
       },
+      colors: {
+        beige: '#f7f4e6',
+      }
+      
     },
   },
   plugins: [],
