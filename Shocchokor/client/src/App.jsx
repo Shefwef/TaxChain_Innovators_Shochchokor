@@ -12,6 +12,7 @@ import {
   Chatbot_Assistant,
   Dashboard,
   SearchResults,
+  AdminDashboard
 } from "./pages";
 
 const App = () => {
@@ -31,6 +32,7 @@ const App = () => {
           <Route path="/create-campaign" element={<CreateCampaign />} />
           <Route path="/campaign-details/:id" element={<CampaignDetails />} />
           <Route path="/chatbot" element={<Chatbot_Assistant />} />
+          <Route path="/admindashboard" element={<AdminDashboard />} />
         </Routes>
       </div>
     </div>

@@ -7,3 +7,4 @@ export { default as SearchResults } from "./SearchResults";
 export { default as Homepage } from "./Homepage";
 export { default as Chatbot_Assistant } from "./Chatbot_Assistant";
 export {default as Dashboard} from "./Dashboard";
+export {default as AdminDashboard} from "./AdminDashboard";
